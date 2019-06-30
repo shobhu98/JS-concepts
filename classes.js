@@ -2,6 +2,7 @@ function Person(name,age) {
     this.firstName=name.split(" ")[0];
     this.lastname=name.split(" ")[1];
     this.age=age;
+    //closure property
      this.isAdult=function() {
         return age>18;
 
